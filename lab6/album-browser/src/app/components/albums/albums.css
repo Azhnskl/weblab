@@ -1,0 +1,69 @@
+.albums {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: #28ca99;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+
+.loading {
+  text-align: center;
+  color: #9ca3af;
+  font-size: 18px;
+}
+
+.album-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  margin-bottom: 12px;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.album-item:hover {
+  background: #f3f4f6;
+  border-color: #6366f1;
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.1);
+  transform: translateX(4px);
+}
+
+.album-id {
+  color: #9ca3af;
+  font-size: 13px;
+  min-width: 40px;
+  font-weight: 600;
+}
+
+.album-title {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1f2937;
+}
+
+button {
+  background: #1b0707;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #dc2626;
+  box-shadow: 0 4px 8px rgba(239, 68, 68, 0.3);
+}

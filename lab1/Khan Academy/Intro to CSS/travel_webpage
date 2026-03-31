@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style>
+            body{
+                background:#D3D3D3;
+            }
+            
+            .thiland{
+                color: grey;
+            }
+            
+        </style>
+    </head>
+    <body>
+    
+        <h1>Travel to ....</h1>
+        <p class='thiland'>THILAND</p><br>
+        <p>
+            I traveled to <strong>Thailand</strong>, where each morning began with <strong><em>warm sea air and tropical sunlight.</em></strong>
+My days were <em>filled</em> with temples, lively markets, and peaceful beaches.
+In the evenings, the city glowed with <strong>lights, music, and laughter.</strong>
+The trip felt <strong><em>unreal</em></strong>, leaving me with a sense of <strong><em>freedom</em></strong> and vivid memories.
+        </p>
+        <br>
+        <h1>Places</h1>
+        
+            <ol>
+                <li>Север Таиланда
+                <p>
+                <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/%E0%B9%81%E0%B8%AA%E0%B8%87%E0%B8%A2%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%81%E0%B8%B4%E0%B9%88%E0%B8%A7%E0%B8%A5%E0%B8%A1_%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%AB%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%94%E0%B8%B1%E0%B8%87.jpg/500px-%E0%B9%81%E0%B8%AA%E0%B8%87%E0%B8%A2%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%81%E0%B8%B4%E0%B9%88%E0%B8%A7%E0%B8%A5%E0%B8%A1_%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%AB%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%94%E0%B8%B1%E0%B8%87.jpg' width='200' url='Sever'></p>
+                
+               </li>
+               <li>Мандапа
+               <p>
+                   <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Wat_Ratchanatdaram-01.jpg/500px-Wat_Ratchanatdaram-01.jpg' width='200'></p>
+               </li>
+            </ol>
+    </body>
+</html>

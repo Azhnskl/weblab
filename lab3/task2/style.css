@@ -1,0 +1,69 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    width: 350px;
+}
+
+/* Заголовок */
+h1 {
+    text-align: center;
+}
+
+/* Поле ввода и кнопка */
+.input-area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#todo-input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+}
+
+#add-btn {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+/* Список задач */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Стиль для выполненных задач */
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Кнопка удаления */
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+}

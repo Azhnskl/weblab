@@ -1,0 +1,52 @@
+
+<app-search></app-search>
+<div class="header-2">
+    <ul>
+        <li><a href="#">ВСЕ КАТЕГОРИИ</a></li>
+        <li><a href="#">ТЕЛЕФОНЫ И ГАДЖЕТЫ</a></li>
+        <li><a href="#">БЫТОВАЯ ТЕХНИКА</a></li>
+        <li><a href="#">ТВ, АУДИО, ВИДЕО</a></li>
+        <li><a href="#">КОМПЬЮТЕРЫ</a></li>
+        <li><a href="#">МЕБЕЛЬ</a></li>
+        <li><a href="#">КРАСОТА, ЗДОРОВЬЕ</a></li>
+        <li><a href="#">ДЕТСКИЕ ТОВАРЫ</a></li>
+        <li><a href="#">АПТЕКА</a></li>
+    </ul>
+</div>
+
+<ul>
+    <li *ngFor="let p of products">
+        <div class="main">
+            <img src="{{p.image}}">
+            <div class="content">
+                <div class="name">
+                    {{ p.name }}
+                </div>
+                <div class="stars">
+                    <span *ngFor="let star of [1,2,3,4,5]"
+                        [class.active]="star <= p.rating">
+                        ★
+                    </span>
+                    <span class="rating-number">({{p.rating}})</span>
+                </div>
+
+                <div class="item-footer">
+                    <div class="desc">
+                        <a href="{{ p.link }}" class="link"><span>{{ p.description }}</span></a>
+                    </div>
+                    <div class="price">
+                        <span>{{ p.price }} KZT</span>
+                    </div>
+                </div>
+                <div class="social-btns">
+                    <a href="https://t.me/mapyraq" target="_blank" class="tg">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram">
+                    </a>
+                    <a href="https://wa.me/77472929651" target="_blank" class="wts">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>

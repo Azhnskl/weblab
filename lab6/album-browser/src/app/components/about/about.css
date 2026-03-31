@@ -1,0 +1,25 @@
+.about {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 32px;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: #6366f1;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+p {
+  font-size: 16px;
+  margin: 12px 0;
+  color: #6b7280;
+  line-height: 1.6;
+  font-weight: 400;
+}

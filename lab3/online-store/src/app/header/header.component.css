@@ -1,0 +1,48 @@
+header{
+    position: sticky;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 75px;
+    max-width: 1200px;
+    min-width: 1200px;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+ul.menu{
+    display: flex;
+    gap: 55px;
+}
+
+.lang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(155, 155, 155);
+}
